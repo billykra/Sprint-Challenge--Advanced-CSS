@@ -148,8 +148,7 @@ h5 {
 h1 {
   font-size: 4rem;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
   padding: 10px;
 }
 h2 {
@@ -169,10 +168,11 @@ p {
 }
 .navigation {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-evenly;
   height: 40px;
 }
-.navigation a {
+.navigation .nav-link {
   font-size: 16px;
   text-decoration: none;
   color: #5E6164;
@@ -196,6 +196,9 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .spcShot {
+  border-radius: 5px;
 }
 .home .space-images {
   display: flex;
@@ -232,6 +235,24 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: block;
+  background-color: #23293B;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+  font-size: 1.8rem;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  padding: 2%;
+}
+.home .walk .btn:hover {
+  background-color: white;
+  color: #23293B;
+  border: 1px solid grey;
 }
 .home .walk .walk-img {
   width: 46%;

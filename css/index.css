@@ -283,8 +283,8 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
-    width: 400px;
-    height: 60px;
+    width: 99%;
+    height: 70px;
     font-weight: bold;
     padding: 20px;
   }
@@ -300,7 +300,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-img {
-    width: 98%;
+    width: 99%;
     margin-left: 0;
   }
 }

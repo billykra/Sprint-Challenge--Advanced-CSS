@@ -5,7 +5,7 @@
   .intro {
 
 
-      @media (max-width: 500px){
+    @media @phone {
         h1 {
           font-size: 4.2rem;
          }
@@ -33,7 +33,7 @@
     flex-wrap: wrap;
     .commonWidth();
 
-    @media (max-width: 500px){
+    @media @phone {
       .blast{
         width: 99%;
       }
@@ -74,7 +74,7 @@
     padding: 50px 60px;
     .flexCent();
 
-    @media (max-width: 500px){
+    @media @phone {
       flex-direction: column-reverse;
       align-items: center;
       padding: 15px 0px;
@@ -83,7 +83,7 @@
     .walk-text {
       width: 50%;
 
-      @media (max-width: 500px){
+      @media @phone {
         width: 100%;
         padding: 15px;
           }
@@ -114,8 +114,8 @@
       width: 46%;
       margin-left: 4%;
       
-      @media (max-width: 500px){
-        width: 98%;
+      @media @phone {
+        width: 99%;
         margin-left: 0;
         }
 

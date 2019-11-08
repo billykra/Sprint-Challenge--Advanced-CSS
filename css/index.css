@@ -181,6 +181,9 @@ p {
   align-items: center;
   justify-content: space-between;
 }
+@phone (max-width: 500px) {
+  margin-top: 20px;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;

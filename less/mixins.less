@@ -1,1 +1,37 @@
 // Mixins Here
+
+.flexCent(){
+    display: flex;
+    justify-content: center;
+}
+
+.commonWidth(){
+    width: 100%;
+}
+
+
+.custom-btn(@width, @height){
+    display: block;
+    background-color: @header-font-color;
+    margin: 0 10px 20px;
+    cursor: pointer;
+    width: @width;
+    height: @height;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 2%;
+
+    @media @phone {
+        width: 99%;
+        height: 70px;
+        font-weight: bold;
+        padding: 20px;
+      }
+    }
+
+
+
+
+

@@ -1,1 +1,57 @@
 // Navigation code here
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    .nav-link{
+        text-decoration: none;
+        font-size: 16px;
+        text-decoration: none;
+        color: @main-font-color;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+      
+    }
+
+}
+
+// Animation Keyframes
+
+h1 {
+    animation-duration: 2.5s;
+    animation-name: slider;
+  }
+  
+  @keyframes slider {
+    from {
+      margin-left: 100%;
+      width: 200%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .navigation {
+    animation-duration: 2s;
+    animation-name: slider;
+  }
+  
+  @keyframes slider {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
